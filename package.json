@@ -1,0 +1,16 @@
+{
+  "name": "buttername",
+  "version": "0.0.0",
+  "description": "",
+  "main": "buttername.js",
+  "dependencies": {
+    "create-oi": "~0.0.4",
+    "serialport": "~1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
