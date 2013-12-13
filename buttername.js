@@ -15,11 +15,19 @@ head.setHeadPan(500);
 
 create.init(function(){
   console.log("drive");
-  var i = 0;
+  create.driveStraight(.5);
   setInterval(function(){
-    create.driveStraight(i);
-    i += .05;
-  }, 1000);
+    create.isBump(function(isBump){
+      console.log(isBump);
+      if (isBump){
+        create.driveStraight(0);
+        create.rotate(.5);
+      }
+      else {
+        create.driveStraight(.5);
+      }
+    });
+  }, 50);
 });
 
 //======================
