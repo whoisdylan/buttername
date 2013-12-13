@@ -1,2 +1,7 @@
 *.un~
 node_modules
+cpp/bin
+cpp/CMakeCache.txt
+cpp/CMakeFiles
+cpp/cmake_install.cmake
+cpp/Makefile
